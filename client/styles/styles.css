@@ -1,0 +1,29 @@
+.centered {
+  position: fixed;
+  top: 15%;
+  width: 50%;
+  left: 25%;
+  margin-top: -50px;
+  margin-left: 25px;
+}
+
+/* The login menu has to be set at a specific height and I chose to center mine. */
+
+#login-screen .dropdown-menu {
+  display: block;
+  position: relative;
+  height: 245px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+#login-screen #login-dropdown-list {
+  display: block;
+}
+
+/* Hides the toggle that you click on */
+
+#login-screen a.dropdown-toggle {
+  display: none;
+}
